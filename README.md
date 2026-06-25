@@ -1,44 +1,45 @@
 # Site Institucional - Professora Aline Reis (Aulas Particulares)
 
-## Integrantes da dupla
-* [Moisés Coelho Santos Juvenal]
+## Integrante
+* Moisés Coelho Santos Juvenal
 
 ## Descrição do caso escolhido
-O caso selecionado trata-se da profissional autônoma Aline Reis, que atua ministrando aulas particulares de inglês focadas em conversação e propósitos profissionais específicos. O projeto foca no desenvolvimento de uma presença web estática para divulgação de seus serviços básicos.
+O projeto foi desenvolvido para a professora Aline Reis, que trabalha de forma autônoma dando aulas particulares de inglês focadas em conversação e negócios. O objetivo foi criar um site simples e direto para divulgar o trabalho dela.
 
 ## Necessidade identificada
-A profissional enfrenta a ausência de um canal oficial consolidado para captação de novos alunos de forma independente, dependendo apenas de indicações boca a boca. O site resolve o problema fornecendo uma interface centralizada com informações claras sobre horários, didática e contato direto.
+A professora dependia apenas de indicações boca a boca para conseguir novos alunos e não tinha uma página própria na internet. O site resolve isso ao centralizar todas as informações sobre o método de ensino, horários e formas de contato.
 
 ## Público-alvo
-Profissionais de nível júnior/pleno que necessitam destravar a fala no idioma para processos seletivos ou reuniões corporativas, além de viajantes recorrentes buscando independência de comunicação básica. Eles buscam preços, abordagens pedagógicas e confiança rápida.
+Profissionais que precisam destravar a conversação para entrevistas de emprego e reuniões de trabalho, além de pessoas que vão viajar e precisam se comunicar melhor. Esse público busca praticidade, clareza sobre as aulas e segurança na escolha.
 
 ## Objetivo do site
-Favorecer a ação principal de agendamento de uma aula experimental gratuita por meio do preenchimento de formulário de simulação de contato direto via aplicativo de mensagens.
+O foco principal da página é fazer com que os visitantes entrem em contato para agendar uma aula experimental gratuita através do formulário de mensagens.
 
 ## Processo de desenvolvimento
-Dividi o trabalho de forma incremental ao longo de duas semanas:
-1. **Semana 1:** Diagnóstico com a cliente, desenho da arquitetura de conteúdo e criação do esqueleto semântico em HTML.
-2. **Semana 2:** Estilização com foco mobile-first através de CSS puro combinado com o Grid do Bootstrap para organização das colunas do Sobre/Metodologia. Inserção do script JS para o acordeão de dúvidas e testes locais de acessibilidade.
+O site foi construído em duas etapas:
+1. Na primeira semana, planejei como as informações seriam organizadas e criei toda a estrutura de textos e seções usando HTML.
+2. Na segunda semana, trabalhei na identidade visual com CSS e organizei as colunas com Bootstrap para que o site funcione bem no celular. Também usei JavaScript para criar as respostas que abrem e fecham na seção de dúvidas.
 
 ## Principais decisões do projeto
-* **Estrutura HTML:** Uso restrito de tags semânticas estruturais como `<main>`, `<section>`, `<article>` e `<header>`.
-* **Organização Visual:** Paleta em tons frios (Azul Escuro e Médio) gerando sensação de ambiente corporativo e educacional, mantendo alto contraste (relação superior a 4.5:1).
-* **Responsividade:** Uso de regras `@media` combinadas ao grid fluido nativo do Bootstrap para realocar colunas verticalmente em dispositivos celulares.
-* **Acessibilidade:** Inclusão de links de salto de cabeçalho (`.link-pular-conteudo`), tags ARIA nos botões interativos (`aria-expanded`) e imagens descritivas no atributo `alt`.
+* Uso de marcações limpas e organizadas no HTML para facilitar a leitura da página.
+* Escolha de tons de azul para passar uma imagem profissional e educacional, cuidando para manter os textos fáceis de ler.
+* Ajustes de layout para que o site se adapte automaticamente a telas de computadores, tablets e celulares.
+* Recursos de acessibilidade para que o site possa ser navegado facilmente por qualquer pessoa, incluindo descrições nas imagens.
 
 ## Funcionalidade em JavaScript
-Foi implementado o sistema de acordeão dinâmico na seção de Dúvidas Frequentes (FAQ). Ao clicar na pergunta, o JavaScript manipula as propriedades `aria-expanded` do botão e a visibilidade (`hidden`) do bloco de texto da resposta, promovendo uma navegação acessível via teclado.
+Usei JavaScript para criar o sistema de perguntas e respostas (FAQ) estilo acordeão. Quando o usuário clica em uma pergunta, a resposta aparece logo abaixo de forma suave, tornando a navegação mais dinâmica e organizada.
 
 ## Uso de Bootstrap
-Focamos na utilização estrita do sistema de Grid (`.row`, `.col-md-6`, `.col-md-4`) de modo introdutório e leve na folha de estilos externa para garantir o alinhamento das colunas sem inflar o código com bibliotecas pesadas.
+Utilizei o sistema de grades do Bootstrap para alinhar os blocos de conteúdo da página de forma rápida, garantindo que o design ficasse alinhado sem deixar o carregamento do site pesado.
 
 ## Testes realizados
-* **Responsividade:** Testado em simulador do navegador (Chrome DevTools) nas resoluções iPhone SE, iPad e Desktop (1920px), sem quebras ou barras de rolagem horizontais.
-* **Acessibilidade:** Navegação completa por teclado (tecla TAB) confirmando que o foco visual acompanha os botões e links de forma lógica.
-* **Publicação:** Testado após o upload no GitHub Pages externamente por rede móvel confirmando o carregamento relativo das imagens.
+* Testei o visual do site em diferentes tamanhos de tela usando as ferramentas do navegador para garantir que nada ficasse cortado.
+* Verifiquei a navegação usando apenas o teclado para garantir o acesso a todos os botões.
+* Acessei o site pelo celular após a publicação no GitHub Pages para confirmar se os textos e imagens carregavam corretamente.
 
 ## Links
-* **Link do repositório:** [https://github.com/moisin/projeto](https://github.com/moisin/projeto)
-* **Link do site publicado:** [https://moisin.github.io/projeto/](https://moisin.github.io/projeto/)
+* Link do repositório: https://github.com/moisin/projeto
+* Link do site publicado: https://moisin.github.io/projeto/
+
 ## Contribuição dos integrantes
-* **[Moisés Coelho Santos Juvenal]:** Diagnóstico inicial da proposta, estruturação lógica do arquivo `index.htm dl`, codificaçãoo arquivo `js/script.js` e preenchimento da documentação Identidade visual no arquivo `css/style.css`, integração inicial com Grid Bootstrap, aplicação de media-queries para responsividade e validação física dos testes.
+* Moisés Coelho Santos Juvenal: Responsável por todo o desenvolvimento do projeto, incluindo o planejamento inicial, a estruturação do HTML, a criação do design em CSS, a programação dos efeitos em JavaScript e a publicação final no GitHub Pages.
