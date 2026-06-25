@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professora Aline Reis - Aulas Particulares de Inglês</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header-principal">
+        <section class="container container-flex" aria-label="Menu Superior">
+            <a href="#conteudo-principal" class="link-pular-conteudo">Pular para o conteúdo principal</a>
+            <strong class="logo">Aline Reis</strong>
+            <nav aria-label="Navegação principal">
+                <ul class="lista-navegacao">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#metodologia">Metodologia</a></li>
+                    <li><a href="#perguntas-frequentes">Dúvidas</a></li>
+                    <li><a href="#contato" class="btn-nav">Fale Comigo</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main id="conteudo-principal">
+        
+        <section class="secao-hero container text-center" aria-label="Apresentação">
+            <h1>Aprenda Inglês no Seu Ritmo com Aulas Particulares Focus</h1>
+            <p>Aulas personalizadas para objetivos profissionais, viagens e conversação do zero ao avançado.</p>
+            <a href="#contato" class="btn-principal">Agende uma Aula Experimental</a>
+        </section>
+
+        <section id="sobre" class="secao-sobre container">
+            <section class="row align-items-center" aria-label="Biografia">
+                <article class="col-md-6">
+                    <h2>Quem é a Professora Aline?</h2>
+                    <p>Profissional autônoma com mais de 7 anos de experiência no ensino de idiomas, certificação internacional e vivência no exterior. Desenvolvimento de cronogramas focados nas reais necessidades práticas do estudante.</p>
+                </article>
+                <figure class="col-md-6 text-center">
+                    <img src="img/teacher.png" alt="Professora Aline sorrindo em seu escritório segurando um livro de inglês." class="img-fluida-custom">
+                </figure>
+            </section>
+        </section>
+
+        <section id="metodologia" class="secao-metodologia container">
+            <h2 class="text-center">Como Funcionam as Aulas?</h2>
+            <section class="row" aria-label="Benefícios">
+                <article class="col-md-4 bloco-servico">
+                    <h3>100% Personalizado</h3>
+                    <p>O material e os tópicos das aulas são baseados no seu mercado de trabalho ou objetivos de viagem.</p>
+                </article>
+                <article class="col-md-4 bloco-servico">
+                    <h3>Horários Flexíveis</h3>
+                    <p>Agendamento semanal dinâmico via plataforma online para se adaptar à sua rotina profissional.</p>
+                </article>
+                <article class="col-md-4 bloco-servico">
+                    <h3>Foco em Conversação</h3>
+                    <p>Prática ativa desde a primeira aula para destravar a fala de maneira natural e sem pressões.</p>
+                </article>
+            </section>
+        </section>
+
+        <section id="perguntas-frequentes" class="secao-faq container">
+            <h2>Dúvidas Frequentes</h2>
+            <p>Clique nas perguntas para exibir as respostas explicativas.</p>
+            
+            <article class="item-faq">
+                <button class="botao-faq" aria-expanded="false" aria-controls="resposta-1">
+                    Como funciona o pagamento das aulas?
+                </button>
+                <section id="resposta-1" class="resposta-faq" hidden>
+                    <p>O pagamento é feito de forma mensal via Pix ou boleto bancário, pago antes do início do ciclo de aulas contratado.</p>
+                </section>
+            </article>
+
+            <article class="item-faq">
+                <button class="botao-faq" aria-expanded="false" aria-controls="resposta-2">
+                    O material didático está incluso no valor?
+                </button>
+                <section id="resposta-2" class="resposta-faq" hidden>
+                    <p>Sim! Todo o material em PDF, artigos de jornais internacionais e exercícios digitais são fornecidos sem custos adicionais.</p>
+                </section>
+            </article>
+        </section>
+
+        <section id="contato" class="secao-contato container text-center">
+            <h2>Fale Conosco e Tire Suas Dúvidas</h2>
+            <p>Pronto para começar? Clique no botão abaixo para simular o envio de mensagens pelo WhatsApp direto para a professora.</p>
+            
+            <form id="formulario-simulado" class="formulario-custom">
+                <fieldset class="campo-grupo">
+                    <label for="nome">Seu Nome Completo:</label>
+                    <input type="text" id="nome" required placeholder="Ex: João Silva">
+                </fieldset>
+                <button type="submit" class="btn-enviar">Iniciar Contato via WhatsApp</button>
+            </form>
+            <p id="mensagem-sucesso" class="alerta-sucesso" role="alert" hidden></p>
+        </section>
+
+    </main>
+
+    <footer class="rodape-principal">
+        <section class="container text-center" aria-label="Informações de Direitos Autorais">
+            <p>&copy; 2026 Aline Reis - Aulas Particulares de Inglês. Todos os direitos reservados.</p>
+            <p>Desenvolvido para fins acadêmicos - Centro Universitário UCB.</p>
+        </section>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
